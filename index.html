@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ApplyPilot UK</title>
+<meta name="description" content="A personal AI job-search engine: finds jobs, writes a tailored CV for each, and applies.">
+<link rel="stylesheet" href="style.css">
+</head><body><main>
+<nav><a href="./">Home</a><a href="privacy.html">Privacy policy</a><a href="terms.html">Terms</a><a href="https://github.com/BasilSuhail/applypilot-showcase">GitHub</a></nav>
+<h1>🚀 ApplyPilot UK</h1>
+<p class="tag">My own AI job-search engine. It finds jobs, writes a tailored one-page CV and cover letter for each one, and applies, handing over to me only when a human is genuinely needed.</p>
+
+<div class="stats">
+  <div class="stat"><b>1,203</b><span>jobs found</span></div>
+  <div class="stat"><b>544</b><span>tailored CVs</span></div>
+  <div class="stat"><b>413</b><span>applications</span></div>
+  <div class="stat"><b>337</b><span>companies</span></div>
+  <div class="stat"><b>~4 min</b><span>per application</span></div>
+  <div class="stat"><b>5</b><span>regions</span></div>
+</div>
+<p style="color:var(--muted);font-size:.9rem">Snapshot from 21 October 2026, live since 17 October 2026.</p>
+
+<h2>How a job flows</h2>
+<div class="flow">Search (Indeed, 5 regions) → dedupe → AI score 1-10 → tailored CV + cover letter →
+Claude agent applies in Chrome → ✅ applied / 🔔 CAPTCHA hand-off / 🗂️ saved for me → 📬 Discord ping on replies</div>
+
+<h2>What it does</h2>
+<div class="grid">
+  <div class="card"><h3>🤖 Applies for me</h3><p>A Claude agent drives a real Chrome window: Workday, SuccessFactors, iCIMS, Greenhouse, Lever and more. It handles logins, screening questions and uploads.</p></div>
+  <div class="card"><h3>🧠 Judges fit honestly</h3><p>Scores each ad against my CV with hard blockers (clearance, licence, language, nationals-only), so only real fits get an application.</p></div>
+  <div class="card"><h3>📄 Writes every CV fresh</h3><p>A one-page CV and cover letter per job, from my real experience and checked by an AI judge.</p></div>
+  <div class="card"><h3>🙋 Asks only when needed</h3><p>One beep for a CAPTCHA. Anything it can't finish is saved with everything I need to do it by hand.</p></div>
+  <div class="card"><h3>📬 Watches for replies</h3><p>Reads my Gmail (read-only) every 10 minutes and pings Discord for interviews and assessments. Never rejections.</p></div>
+  <div class="card"><h3>🔒 Private by design</h3><p>Runs on my own Mac. Personal data never leaves it, apart from an encrypted backup on my own server.</p></div>
+</div>
+
+<h2>About</h2>
+<p>A personal project by <a href="https://github.com/BasilSuhail">Basil Suhail</a>, built during my own graduate job search. It extends the open-source <a href="https://github.com/Pickle-Pixel/ApplyPilot">ApplyPilot</a>. The working code is private; read more in the <a href="https://github.com/BasilSuhail/applypilot-showcase">project README</a>.</p>
+
+<footer>ApplyPilot UK · <a href="privacy.html">Privacy policy</a> · <a href="terms.html">Terms</a></footer>
+</main></body></html>
